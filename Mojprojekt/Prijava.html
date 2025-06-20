@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Zvonimir Rajačić" />
+        <meta name="description" content="index stranica" />
+        <title>Prijava</title>
+    </head>
+    <body>
+        <header>
+            <!-- Navigacija -->
+            <nav>
+                <ul>
+                    <li class="navigacija"><img id="bbc" src="slike/bbc.png"></li>
+                    <li class="navigacija"><a href="pindex.php">Početna</a></li>
+                    <li class="navigacija"><a href="politika.php">Politika</a></li>
+                    <li class="navigacija"><a href="sport.php">Sport</a></li>
+                    <li class="navigacija"><a href="unos.html">Unos</a></li>
+                    <li class="navigacija"><a href="Prijava.html">Administracija</a></li>
+                </ul>
+            </nav>
+        </header>
+            <!--glavni dio stranice-->
+
+            
+        
+            <br>
+            <section class="sadrzajpojedinacno" >
+                <h2 id="naslovunos">Prijava</h2><br><br>
+
+                <form action="prijavap.php" method="POST"  enctype="multipart/form-data">
+                    <label for="korisnicko">Korisničko ime</label><br>
+                    <input type="text" name="korisnicko"><br>
+
+                    <label for="lozinka">Lozinka:</label><br>
+                    <input type="password" name="lozinka"><br>
+
+                    <button type="reset">Poništi</button>
+                    <button type="submit">Prijava</button>
+
+                </form>
+              
+            </section>
+       
+        
+            
+        </article>
+
+
+       
+
+<!--Zaglavlje-->
+        <footer id="footeradmin">
+            <div id="zaglavlje">
+                <br>
+                <hr id="zlinija">
+                <h4>Zvonimir Rajačić, 2025.</h4>
+                <br>
+            </div>
+        </footer>
+    </body>
+</html>
